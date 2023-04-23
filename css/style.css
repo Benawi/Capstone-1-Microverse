@@ -134,3 +134,8 @@ body {
 .pl-1 { padding-left: 1rem; }
 
 .pt-1 { padding-top: 1rem; }
+
+/* Display Block Pre-sets */
+.d-inline-block {
+  display: inline-block;
+}
