@@ -255,3 +255,42 @@ body {
   padding: 1rem;
   max-width: 90vw;
 }
+
+/* Main Program */
+.main-program {
+  background-color: var(--dark-bc);
+  padding: 3rem 1rem;
+}
+
+.program-text {
+  max-width: calc((100vw - 1rem) / 3);
+}
+
+.program-img-1,
+.program-img-2,
+.program-img-4,
+.program-img-3,
+.program-img-5,
+.program-img-6,
+.program-img-7 {
+  width: 80px;
+}
+
+.program-title {
+  font-size: 12px;
+}
+
+.program-out-container {
+  width: 100%;
+}
+
+.programs-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.program-container {
+  background-color: var(--greyish-color-90);
+  padding: 0.5rem 0.5rem;
+  width: 100%;
+}
