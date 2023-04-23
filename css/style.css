@@ -114,3 +114,18 @@ body {
 .bc-dark {
   background-color: var(--dark-bc);
 }
+
+/* Margin Pre-set */
+.mb-1 { margin-bottom: 1rem; }
+
+.mb-2 { margin-bottom: 2rem; }
+
+.mr-1 { margin-right: 1rem; }
+
+.mr-2 { margin-right: 2rem; }
+
+.mt-1 { margin-top: 1rem; }
+
+.mt-2 { margin-top: 2rem; }
+
+.mt-05 { margin-top: 0.5rem; }
