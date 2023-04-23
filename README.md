@@ -23,7 +23,7 @@
 - [📝 License](#license)
 
 
-# 📖 Portifolio Microverse! project <a name="about-project"></a>
+# 📖 Capstone Microverse! Project <a name="about-project"></a>
 
 Capstone Microverse! project is a repository consisting of the following files:
 - HTML file (index.html)

@@ -1,0 +1,21 @@
+:root {
+  --main-bc: #f5f5f5;
+  --dark-bc: #272a33;
+  --greyish-color: #a0a0a0;
+  --header-grey-color: #666;
+  --greyish-color-90: #a0a0a039;
+  --orange-color: #ec5242;
+  --darkgrey-color: #272a31;
+  --border-color-orange: #ff4f38;
+  --border-color-grey: #e7e7e7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-bc);
+}
