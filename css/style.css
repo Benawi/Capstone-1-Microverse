@@ -192,3 +192,13 @@ body {
 .d-justify-around {
   justify-content: space-around;
 }
+
+/* Positions */
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
