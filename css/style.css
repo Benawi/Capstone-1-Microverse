@@ -228,3 +228,18 @@ body {
 .d-none {
   display: none;
 }
+
+/* Nav Section */
+.nav-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--main-bc);
+  opacity: 0.95;
+  padding: 0.5rem 1rem;
+}
+
+.bars-menu {
+  color: var(--darkgrey-color);
+}
