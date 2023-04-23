@@ -39,13 +39,13 @@ The repository also contains files for setting up linters and validators.
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
+
   <ul>
     <li><a href="https://microverse.notion.site/HTML-CSS-Get-a-head-start-275eb85fd34b4416aa06ec635d69cdaf">HTML</a></li>
     <li><a href="https://microverse.notion.site/HTML-CSS-Get-a-head-start-275eb85fd34b4416aa06ec635d69cdaf">CSS</a></li>
        <li><a href="https://microverse.notion.site/HTML-CSS-Get-a-head-start-275eb85fd34b4416aa06ec635d69cdaf">JS</a></li>
   </ul>
-</details>
+
 
 
 ### Key Features <a name="key-features"></a>
