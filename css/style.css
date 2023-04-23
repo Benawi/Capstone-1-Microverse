@@ -331,3 +331,14 @@ body {
 .popup-li-item {
   text-decoration: none;
 }
+
+/* See More Mob */
+.see-more-mob-section {
+  padding: 0.5rem 1rem;
+}
+
+.see-more-mob {
+  border: 1px solid var(--border-color-grey);
+  border-radius: 6px;
+  padding: 0.5rem 0.5rem;
+}
