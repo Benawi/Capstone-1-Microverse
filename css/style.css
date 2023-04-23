@@ -433,4 +433,54 @@ body {
     width: 70%;
     max-width: 840px;
   }
+
+  /* Programs Section */
+  .programs-container {
+    flex-direction: row;
+    align-items: initial;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .program-container {
+    margin-right: 2rem;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    max-width: 30%;
+  }
+
+  .program-container:last-child {
+    margin: 0;
+  }
+
+  .program-text {
+    margin-top: 1rem;
+  }
+
+  .program-title {
+    font-size: 18px;
+  }
+
+  .see-more-desk {
+    display: block;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  .see-more-desk:hover {
+    cursor: pointer;
+  }
+
+  .program-img-1,
+  .program-img-2,
+  .program-img-4,
+  .program-img-3,
+  .program-img-5,
+  .program-img-6,
+  .program-img-7 {
+    width: 250px;
+  }
 }
