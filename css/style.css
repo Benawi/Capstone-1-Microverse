@@ -243,3 +243,15 @@ body {
 .bars-menu {
   color: var(--darkgrey-color);
 }
+
+/* Headline Section */
+.headline-section {
+  margin-top: calc(32px * 2.5);
+  margin-bottom: calc(32px * 2);
+}
+
+.headline-pbox {
+  border: 2px solid #fff;
+  padding: 1rem;
+  max-width: 90vw;
+}
