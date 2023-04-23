@@ -129,3 +129,8 @@ body {
 .mt-2 { margin-top: 2rem; }
 
 .mt-05 { margin-top: 0.5rem; }
+
+/* Padding Pre-set */
+.pl-1 { padding-left: 1rem; }
+
+.pt-1 { padding-top: 1rem; }
