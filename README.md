@@ -103,8 +103,24 @@ You can use this project by cloning it to your folder and changing index.html an
 
 To run tests, run the following commands:
 
-> npx hint .
-> npx stylelint "**/*.{css,scss}"
+To track linter errors locally follow these steps:  
+
+Download all the dependencies run:
+```
+npm install
+```
+Track HTML linter errors run:
+```
+npx hint .
+```
+Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+Track JavaScript linter errors run:
+```
+npx eslint ."
+```
 
 ### Deployment
 
