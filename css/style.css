@@ -223,3 +223,8 @@ body {
   font-size: 14px;
   font-weight: 600;
 }
+
+/* Display None */
+.d-none {
+  display: none;
+}
