@@ -202,6 +202,7 @@ body {
 .absolute {
   position: absolute;
 }
+
 /* Border-bottom PreFix */
 .primary-bdb {
   border-bottom: 3px solid var(--border-color-orange);
@@ -212,4 +213,13 @@ body {
 .secundary-bdb {
   border-bottom: 2px solid var(--border-color-grey);
   width: 8%;
+}/* Button Pre-fix */
+.default-button {
+  border: none;
+  box-shadow: none;
+  background-color: var(--orange-color);
+  padding: 2rem 2rem;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
 }
