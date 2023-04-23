@@ -79,3 +79,38 @@ body {
 .fs-60 {
   font-size: 60px;
 }
+
+/* font color  */
+.fc-greyish {
+  color: var(--greyish-color);
+}
+
+.fc-dark-greyish {
+  color: var(--header-grey-color);
+}
+
+.fc-orange {
+  color: var(--orange-color);
+}
+
+.fc-darkgrey {
+  color: var(--darkgrey-color);
+}
+
+.fc-white {
+  color: #fff;
+}
+
+/* background */
+
+.bc-white {
+  background-color: #fff;
+}
+
+.bc-gray {
+  background-color: var(--main-bc);
+}
+
+.bc-dark {
+  background-color: var(--dark-bc);
+}
