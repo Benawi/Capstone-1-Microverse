@@ -343,6 +343,120 @@ body {
   padding: 0.5rem 0.5rem;
 }
 
+.mainpro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  padding: 50px 20px;
+  color: var(--color-white);
+  background: var(--color-dark);
+}
+
+.proheader {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.procard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 1px;
+  list-style: none;
+  padding: 12px;
+  background: #3c3f46;
+  border: 2px solid #3c3f46;
+}
+
+.procard:hover {
+  background: rgba(60, 63, 70, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 2px;
+  border: 2px solid var(--color-white);
+}
+
+.pro-card {
+  flex-direction: column;
+}
+
+.proimg {
+  font-size: 32px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+/* .speakerimg {
+  width: 50px;
+  height: auto;
+} */
+
+.protitle {
+  width: 35%;
+  text-align: center;
+  padding: 5px;
+  color: var(--color-coral);
+}
+
+.promore {
+  display: none;
+}
+
+.probtn {
+  font-weight: 600;
+  color: var(--color-white);
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 20px 40px;
+  background: var(--color-coral);
+  border: none;
+  text-align: center;
+}
+
+.probtn:hover {
+  color: var(--color-coral);
+  background: var(--color-white);
+  border: 2px solid var(--color-coral);
+}
+
+.protext {
+  width: 50%;
+  text-align: left;
+}
+
+.partners {
+  background-color: var(--text-darkgray);
+  padding: 20px;
+  text-align: center;
+}
+
+.partnerhead {
+  text-align: center;
+  color: var(--text-gray);
+  font-size: 35px;
+}
+
+.partnerlogo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.plogo {
+  width: 18%;
+  height: 30%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 992px) {
   /* Hidden Objects */
   .d-none-desk {
@@ -424,7 +538,7 @@ body {
 
   .headline-section::before {
     content: "";
-    background: url("../Resource/Images/logos/logo1.png");
+    background: url("../Resource/Images/posters/meskel.jpg");
     background-size: cover;
     opacity: 0.1;
     width: 100%;
@@ -497,5 +611,61 @@ body {
   .program-img-6,
   .program-img-7 {
     width: 250px;
+  }
+
+  .proheader {
+    text-align: center;
+    justify-content: center;
+    color: var(--color-white);
+    padding: 50px;
+    padding-bottom: 10px;
+  }
+
+  .procard {
+    list-style-type: none;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proimg {
+    width: 100%;
+    text-align: center;
+  }
+
+  .protitle {
+    text-align: center;
+    width: 100%;
+  }
+
+  .promore {
+    display: block;
+    color: var(--color-white);
+    text-align: center;
+    margin: 50px;
+    text-decoration: underline;
+  }
+
+  .promore:hover {
+    color: var(--color-coral);
+  }
+
+  .mainpro {
+    background-color: var(--color-dark);
+    padding: 50px 200px;
+  }
+
+  .pro-card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .probtn {
+    display: none;
+  }
+
+  .protext {
+    width: 100%;
+    text-align: center;
   }
 }
