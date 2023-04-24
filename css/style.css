@@ -422,11 +422,26 @@ body {
     margin: 0;
   }
 
+  .headline-section::before {
+    content: "";
+    background: url("../Resource/Images/logos/logo1.png");
+    background-size: cover;
+    opacity: 0.1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
   .headline-container {
     width: 80%;
     max-width: 1200px;
     align-items: start;
     justify-content: center;
+    color: var(--text-darkgray);
   }
 
   .headline-desk-size {
