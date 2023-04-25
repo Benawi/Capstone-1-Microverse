@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --color-dark: #272a31;
+  --color-coral: #ec5242;
+  --text-coral: #f44c06;
+  --color-white: #fff;
+  --bg-gray: #d3d3d3;
+  --text-gray: #909090;
+  --text-darkgray: #565656;
+}
+
+.mlist {
+  display: none;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 10px;
+  width: 100%;
+}
+
+.mainpro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  padding: 50px 20px;
+  color: var(--color-white);
+  background: var(--color-dark);
+}
+
+.proheader {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.procard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 1px;
+  list-style: none;
+  padding: 12px;
+  background: #3c3f46;
+  border: 2px solid #3c3f46;
+}
+
+.procard:hover {
+  background: rgba(60, 63, 70, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 2px;
+  border: 2px solid var(--color-white);
+}
+
+.pro-card {
+  flex-direction: column;
+}
+
+.proimg {
+  font-size: 32px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.protitle {
+  width: 35%;
+  text-align: center;
+  padding: 5px;
+  color: var(--color-coral);
+}
+
+.promore {
+  display: none;
+}
+
+.probtn {
+  font-weight: 600;
+  color: var(--color-white);
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 20px 40px;
+  background: var(--color-coral);
+  border: none;
+  text-align: center;
+}
+
+.probtn:hover {
+  color: var(--color-coral);
+  background: var(--color-white);
+  border: 2px solid var(--color-coral);
+}
+
+.protext {
+  width: 50%;
+  text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+  .proheader {
+    text-align: center;
+    justify-content: center;
+    color: var(--color-white);
+    padding: 50px;
+    padding-bottom: 10px;
+  }
+
+  .procard {
+    list-style-type: none;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proimg {
+    width: 100%;
+    text-align: center;
+  }
+
+  .protitle {
+    text-align: center;
+    width: 100%;
+  }
+
+  .promore {
+    display: block;
+    color: var(--color-white);
+    text-align: center;
+    margin: 50px;
+    text-decoration: underline;
+  }
+
+  .promore:hover {
+    color: var(--color-coral);
+  }
+
+  .mainpro {
+    background-color: var(--color-dark);
+    padding: 50px 200px;
+  }
+
+  .pro-card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .probtn {
+    display: none;
+  }
+
+  .protext {
+    width: 100%;
+    text-align: center;
+  }
+}
