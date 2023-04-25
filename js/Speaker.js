@@ -57,3 +57,14 @@ speakerdata.forEach((speaker) => {
       card.classList.add('hide');
     }
   });
+
+
+  const moreBtn = document.querySelector('.morebtn');
+
+const moreBtnText = (card) => {
+  if (card.classList.contains('hide')) {
+    moreBtn.innerHTML = 'MORE <i class="chevron down icon"></i>';
+  } else {
+    moreBtn.innerHTML = 'LESS <i class="chevron up icon"></i>';
+  }
+};
