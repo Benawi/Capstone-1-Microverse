@@ -8,3 +8,7 @@ const speakerData=[
       },
 ]
 const mainSection = document.getElementById('main-section');
+// speaker container
+const speakersList = document.createElement('ul');
+speakersList.className = 'speakerslist';
+speakers.appendChild(speakersList);
