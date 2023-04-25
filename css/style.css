@@ -540,7 +540,7 @@ body {
     content: "";
     background: url("../Resource/Images/posters/meskel.jpg");
     background-size: cover;
-    opacity: 0.1;
+    opacity: 0.2;
     width: 100%;
     top: 0;
     left: 0;
@@ -580,8 +580,9 @@ body {
     text-align: center;
     max-width: 30%;
   }
+}
 
-  .program-container:last-child {
+/*   .program-container:last-child {
     margin: 0;
   }
 
@@ -667,5 +668,4 @@ body {
   .protext {
     width: 100%;
     text-align: center;
-  }
-}
+  } */
