@@ -68,3 +68,13 @@ const moreBtnText = (card) => {
     moreBtn.innerHTML = 'LESS <i class="chevron up icon"></i>';
   }
 };
+
+moreBtn.addEventListener('click', () => {
+    speakerCards.forEach((card, index) => {
+      if (index > 1) {
+        card.classList.toggle('hide');
+        moreBtnText(card);
+      }
+    });
+  });
+  
