@@ -49,7 +49,35 @@ The repository also contains files for setting up linters and validators.
 
 
 ### Key Features <a name="key-features"></a>
-- 
+## Capstone - [HTML/CSS & JavaScript capstone project](https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/html_capstone.md)
+### Features Added:
+- The content of the pages personalized. 
+- The [design guidelines](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), is followed including:
+     - Colors.
+     - Typography: font face, size and weight ([Lato](https://www.latofonts.com/) as it is a free font similar to the one used in the original design) is used
+     - Layout: composition and space between elements.
+- The pages look almost identical to the original design. Small adjustments like text or image changes is done
+- The following 2 pages implemented:
+
+     - The home page.
+
+     - The about page.
+
+     - Each of these pages have versions for 2 different screen sizes:
+
+           -  Mobile: up to 768px wide.
+
+           -  Desktop: 768px or wider.
+- Interactions
+    - Links
+         - The home page have a link in the menu to the about page.
+         - The logo in the header links to the home page.
+     -  Mobile menu
+        - When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page.
+        - The mobile menu have a close (X) button that closes the menu.
+- Dynamic page
+      - The section "Featured speakers" is  created dynamically in JavaScript.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
