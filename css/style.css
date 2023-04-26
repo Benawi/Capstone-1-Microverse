@@ -312,6 +312,11 @@ body {
   background-color: var(--greyish-color-90);
   padding: 0.5rem 0.5rem;
   width: 100%;
+  text-align: justify;
+}
+
+.program-container:hover {
+  background: var(--header-grey-color);
 }
 
 /* meskels Sections */
@@ -334,6 +339,7 @@ body {
 .meskel-text-container {
   padding: 0 0.5rem;
   max-width: calc(425px / 3 * 2);
+  text-align: justify;
 }
 
 /* Partners Section */
@@ -362,7 +368,7 @@ body {
 }
 
 .footer-logo {
-  width: 125px;
+  width: 75px;
 }
 
 /* Menu popup */
@@ -467,7 +473,7 @@ body {
 
   .nav-logo {
     display: block;
-    height: 60px;
+    height: 90px;
   }
 
   .nav-list {
@@ -494,10 +500,10 @@ body {
 
   .headline-section::before {
     content: "";
-    background: url("../Resource/Images/posters/meskel.jpg");
+    background: url("../Resource/Images/logos/logo1.png");
     background-size: cover;
     width: 100%;
-    opacity: 0.2;
+    opacity: 0.1;
     top: 0;
     left: 0;
     bottom: 0;
@@ -539,6 +545,10 @@ body {
 
   .program-container:last-child {
     margin: 0;
+  }
+
+  .program-container:hover {
+    background: var(--header-grey-color);
   }
 
   .program-text {
@@ -627,7 +637,7 @@ body {
   }
 
   .footer-logo {
-    width: 250px;
+    width: 150px;
   }
 
   .footer-text-container {
