@@ -22,10 +22,10 @@ body {
 
 /* Fonts Styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 .default-family {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .fw-300 {
@@ -80,7 +80,6 @@ body {
   font-size: 60px;
 }
 
-/* font color  */
 .fc-greyish {
   color: var(--greyish-color);
 }
@@ -116,24 +115,42 @@ body {
 }
 
 /* Margin Pre-set */
-.mb-1 { margin-bottom: 1rem; }
+.mb-1 {
+  margin-bottom: 1rem;
+}
 
-.mb-2 { margin-bottom: 2rem; }
+.mb-2 {
+  margin-bottom: 2rem;
+}
 
-.mr-1 { margin-right: 1rem; }
+.mr-1 {
+  margin-right: 1rem;
+}
 
-.mr-2 { margin-right: 2rem; }
+.mr-2 {
+  margin-right: 2rem;
+}
 
-.mt-1 { margin-top: 1rem; }
+.mt-1 {
+  margin-top: 1rem;
+}
 
-.mt-2 { margin-top: 2rem; }
+.mt-2 {
+  margin-top: 2rem;
+}
 
-.mt-05 { margin-top: 0.5rem; }
+.mt-05 {
+  margin-top: 0.5rem;
+}
 
 /* Padding Pre-set */
-.pl-1 { padding-left: 1rem; }
+.pl-1 {
+  padding-left: 1rem;
+}
 
-.pt-1 { padding-top: 1rem; }
+.pt-1 {
+  padding-top: 1rem;
+}
 
 /* Display Block Pre-sets */
 .d-inline-block {
@@ -213,7 +230,9 @@ body {
 .secundary-bdb {
   border-bottom: 2px solid var(--border-color-grey);
   width: 8%;
-}/* Button Pre-fix */
+}
+
+/* Button Pre-fix */
 .default-button {
   border: none;
   box-shadow: none;
@@ -295,6 +314,57 @@ body {
   width: 100%;
 }
 
+/* meskels Sections */
+.main-meskels {
+  background-color: #fff;
+}
+
+.meskels-container {
+  padding: 2.5rem 1rem 1.5rem 1rem;
+}
+
+.poster {
+  height: 174px;
+}
+
+.meskel-container {
+  max-width: 425px;
+}
+
+.meskel-text-container {
+  padding: 0 0.5rem;
+  max-width: calc(425px / 3 * 2);
+}
+
+/* Partners Section */
+.partners-section {
+  background-color: var(--dark-bc);
+  width: 100%;
+}
+
+.partners-container {
+  padding: 2rem 1rem;
+}
+
+.partners-company-container {
+  max-width: 600px;
+}
+
+.partner-logo {
+  width: 70%;
+  max-width: 300px;
+}
+
+/* Footer */
+.footer-container {
+  padding: 2rem 0;
+  background-color: var(--main-bc);
+}
+
+.footer-logo {
+  width: 125px;
+}
+
 /* Menu popup */
 .menu-popup {
   top: 0;
@@ -343,120 +413,6 @@ body {
   padding: 0.5rem 0.5rem;
 }
 
-.mainpro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  height: auto;
-  padding: 50px 20px;
-  color: var(--color-white);
-  background: var(--color-dark);
-}
-
-.proheader {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.procard {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  margin: 1px;
-  list-style: none;
-  padding: 12px;
-  background: #3c3f46;
-  border: 2px solid #3c3f46;
-}
-
-.procard:hover {
-  background: rgba(60, 63, 70, 0.8);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 2px;
-  border: 2px solid var(--color-white);
-}
-
-.pro-card {
-  flex-direction: column;
-}
-
-.proimg {
-  font-size: 32px;
-  padding: 5px;
-  margin-top: 10px;
-}
-
-/* .speakerimg {
-  width: 50px;
-  height: auto;
-} */
-
-.protitle {
-  width: 35%;
-  text-align: center;
-  padding: 5px;
-  color: var(--color-coral);
-}
-
-.promore {
-  display: none;
-}
-
-.probtn {
-  font-weight: 600;
-  color: var(--color-white);
-  font-size: 20px;
-  margin-top: 20px;
-  padding: 20px 40px;
-  background: var(--color-coral);
-  border: none;
-  text-align: center;
-}
-
-.probtn:hover {
-  color: var(--color-coral);
-  background: var(--color-white);
-  border: 2px solid var(--color-coral);
-}
-
-.protext {
-  width: 50%;
-  text-align: left;
-}
-
-.partners {
-  background-color: var(--text-darkgray);
-  padding: 20px;
-  text-align: center;
-}
-
-.partnerhead {
-  text-align: center;
-  color: var(--text-gray);
-  font-size: 35px;
-}
-
-.partnerlogo {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-around;
-}
-
-.plogo {
-  width: 18%;
-  height: 30%;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
 @media only screen and (min-width: 992px) {
   /* Hidden Objects */
   .d-none-desk {
@@ -474,7 +430,7 @@ body {
     display: block;
   }
 
-  /* Primary Dbd */
+  /* Prymary Dbd */
   .primary-bdb {
     margin-bottom: 4rem;
     max-width: 50px;
@@ -540,12 +496,13 @@ body {
     content: "";
     background: url("../Resource/Images/posters/meskel.jpg");
     background-size: cover;
-    opacity: 0.2;
     width: 100%;
+    opacity: 0.2;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+    height: 100vh;
     position: absolute;
     z-index: -1;
   }
@@ -555,7 +512,6 @@ body {
     max-width: 1200px;
     align-items: start;
     justify-content: center;
-    color: var(--text-darkgray);
   }
 
   .headline-desk-size {
@@ -580,9 +536,8 @@ body {
     text-align: center;
     max-width: 30%;
   }
-}
 
-/*   .program-container:last-child {
+  .program-container:last-child {
     margin: 0;
   }
 
@@ -614,58 +569,78 @@ body {
     width: 250px;
   }
 
-  .proheader {
-    text-align: center;
-    justify-content: center;
-    color: var(--color-white);
-    padding: 50px;
-    padding-bottom: 10px;
-  }
-
-  .procard {
-    list-style-type: none;
-    padding: 2%;
+  /* meskels Section */
+  .main-meskels {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
-  .proimg {
-    width: 100%;
-    text-align: center;
+  .meskel-div-container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
   }
 
-  .protitle {
-    text-align: center;
-    width: 100%;
+  .meskel-container {
+    width: 40%;
+    max-width: 100%;
   }
 
-  .promore {
-    display: block;
-    color: var(--color-white);
-    text-align: center;
-    margin: 50px;
-    text-decoration: underline;
+  .meskel-text-container {
+    max-width: 100%;
   }
 
-  .promore:hover {
-    color: var(--color-coral);
+  .meskel-title,
+  .meskel-author {
+    font-size: 18px;
   }
 
-  .mainpro {
-    background-color: var(--color-dark);
-    padding: 50px 200px;
+  .meskel-p {
+    font-size: 16px;
   }
 
-  .pro-card {
-    display: flex;
+  /* Partner Section */
+  .partners-company-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem 1rem 4rem 1rem;
+  }
+
+  .partners-container > span {
+    margin-bottom: 1rem;
+  }
+
+  .partner-logo {
+    width: 15%;
+    max-width: 100%;
+    margin: 0 1rem 0 0;
+  }
+
+  .partner-logo:last-child {
+    margin: 0;
+  }
+
+  /* Footer Section */
+  .footer-container {
+    justify-content: space-around;
+  }
+
+  .footer-logo {
+    width: 250px;
+  }
+
+  .footer-text-container {
     flex-direction: row;
   }
 
-  .probtn {
-    display: none;
+  .footer-text {
+    font-size: 18px;
+    color: var(--darkgrey-color);
+    margin-right: 1rem;
   }
 
-  .protext {
-    width: 100%;
-    text-align: center;
-  } */
+  .footer-text:last-child {
+    margin: 0;
+  }
+}
