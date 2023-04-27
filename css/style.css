@@ -291,8 +291,10 @@ body {
 .program-img-3,
 .program-img-5,
 .program-img-6,
-.program-img-7 {
+.program-img-7,
+.program-img-8 {
   width: 80px;
+  height: 70px;
 }
 
 .program-title {
@@ -566,7 +568,7 @@ body {
   }
 
   .program-text {
-    margin-top: 1rem;
+    margin-top: 0.1rem;
   }
 
   .program-title {
@@ -589,8 +591,10 @@ body {
   .program-img-3,
   .program-img-5,
   .program-img-6,
-  .program-img-7 {
+  .program-img-7,
+  .program-img-8 {
     width: 250px;
+    height: 220px;
   }
 
   /* meskels Section */
