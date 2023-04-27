@@ -9,37 +9,37 @@ const meskelsData = [
         '"The meskel celebration in Gurage may have a span of 14days depending on the area. " ',
   },
   {
-    img: '../Resource/Images/posters/benaw.jpg',
-    name: 'Habtamu Alemayehu',
-    Postion: 'Software Developer - 2023',
+    img: '../Resource/Images/posters/Ariel.png',
+    name: 'Ariel Camus',
+    Postion: 'Founder + CEO, Microverse - 2023',
     'meskel sinopsis':
         '"During the slaughter ceremony the ox should fall on the right side or is flipped the other way around. " ',
   },
   {
-    img: '../Resource/Images/posters/benaw.jpg',
-    name: 'Habtamu Alemayehu',
-    Postion: 'Software Developer - 2023',
+    img: '../Resource/Images/posters/Gaby.png',
+    name: 'Gaby Suarez',
+    Postion: 'Admissions, Microverse- 2023',
     'meskel sinopsis':
         '"This is the day that the whole of Ethiopia celebrates meskel. On this day you might see people with crosses made of ashes" ',
   },
   {
-    img: '../Resource/Images/posters/benaw.jpg',
-    name: 'Habtamu Alemayehu',
-    Postion: 'Software Developer - 2023',
+    img: '../Resource/Images/posters/Andrea.png',
+    name: 'Andrea Funda',
+    Postion: 'Student Success, Microverse - 2023',
     'meskel sinopsis':
         '"Meskel in Gurage is not only limited within the reigon but also the whole of Ethiopia."',
   },
   {
-    img: '../Resource/Images/posters/benaw.jpg',
-    name: 'Habtamu Alemayehu',
-    Postion: 'Software Developer - 2023',
+    img: '../Resource/Images/posters/Nicolas.png',
+    name: 'Nicolas Kneler',
+    Postion: 'Admissions, Microverse - 2023',
     'meskel sinopsis':
         '"The foods are not sereved on plates as we assume but is eaten on a leaf cut into shapes and is eaten with a spoon made of an ox’s horn."',
   },
   {
-    img: '../Resource/Images/posters/benaw.jpg',
-    name: 'Habtamu Alemayehu',
-    Postion: 'Software Developer - 2023',
+    img: '../Resource/Images/posters/Sher.png',
+    name: 'Sher Tapang',
+    Postion: 'Admissions, Microverse - 2023',
     'meskel sinopsis':
         '"The foods are not sereved on plates as we assume but is eaten on a leaf cut into shapes and is eaten with a spoon made of an ox’s horn."',
   },
