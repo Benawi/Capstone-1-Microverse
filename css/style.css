@@ -45,7 +45,7 @@ body {
 }
 
 .fw-900 {
-  font-weight: 900;
+  font-weight: 1500;
 }
 
 .fs-12 {
@@ -69,11 +69,11 @@ body {
 }
 
 .fs-36 {
-  font-size: 28px;
+  font-size: 36px;
 }
 
 .fs-48 {
-  font-size: 48px;
+  font-size: 75px;
 }
 
 .fs-60 {
@@ -508,7 +508,7 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-    height: 100vh;
+    height: 115vh;
     position: absolute;
     z-index: -1;
   }
