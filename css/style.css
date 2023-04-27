@@ -647,15 +647,15 @@ body {
 
   /* Footer Section */
   .footer-container {
-    justify-content: space-around;
+    /* justify-content: space-evenly; */
   }
 
   .footer-logo {
-    width: 150px;
+    width: 100px;
   }
 
   .footer-text-container {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .footer-text {
