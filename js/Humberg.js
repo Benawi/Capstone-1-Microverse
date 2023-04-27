@@ -55,7 +55,7 @@ function generatemeskels(meskelContainer) {
         id="poster-${i}"
         class="poster"
         src="${meskelsData[i - 1].img}"
-        alt=""
+        alt="Speakers photo"
       />
       <div
         id="meskel-txt-container-${i}"
