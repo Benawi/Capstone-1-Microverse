@@ -3,7 +3,7 @@
 const meskelsData = [
   {
     img: '../Resource/Images/posters/benaw.jpg',
-    name: 'Habtamu Alemayehu',
+    name: 'Benawi Alemayehu',
     Postion: 'Software Developer - 2023',
     'meskel sinopsis':
         '"The meskel celebration in Gurage may have a span of 14days depending on the area. " ',
