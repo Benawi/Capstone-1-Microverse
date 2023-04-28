@@ -84,7 +84,7 @@ The repository also contains files for setting up linters and validators.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo](https://benawi.netlify.app/index)
-- [Loom](https://www.loom.com/share/68687b23c2824f21bfc3cb0b09586546)
+- [Loom](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
