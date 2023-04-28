@@ -23,7 +23,7 @@
 - [📝 License](#license)
 
 
-# 📖 Portifolio Microverse! project <a name="about-project"></a>
+# 📖 Capstone Microverse! Project <a name="about-project"></a>
 
 Capstone Microverse! project is a repository consisting of the following files:
 - HTML file (index.html)
@@ -49,13 +49,42 @@ The repository also contains files for setting up linters and validators.
 
 
 ### Key Features <a name="key-features"></a>
-- 
+## Capstone - [HTML/CSS & JavaScript capstone project](https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/html_capstone.md)
+### Features Added:
+- The content of the pages personalized. 
+- The [design guidelines](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), is followed including:
+     - Colors.
+     - Typography: font face, size and weight ([Lato](https://www.latofonts.com/) as it is a free font similar to the one used in the original design) is used
+     - Layout: composition and space between elements.
+- The pages look almost identical to the original design. Small adjustments like text or image changes is done
+- The following 2 pages implemented:
+
+     - The home page.
+
+     - The about page.
+
+     - Each of these pages have versions for 2 different screen sizes:
+
+           -  Mobile: up to 768px wide.
+
+           -  Desktop: 768px or wider.
+- Interactions
+    - Links
+         - The home page have a link in the menu to the about page.
+         - The logo in the header links to the home page.
+     -  Mobile menu
+        - When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page.
+        - The mobile menu have a close (X) button that closes the menu.
+- Dynamic page
+      - The section "Featured speakers" is  created dynamically in JavaScript.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo]()
+- [Live Demo](https://benawi.netlify.app/index)
+- [Loom](https://www.loom.com/share/68687b23c2824f21bfc3cb0b09586546)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,8 +132,24 @@ You can use this project by cloning it to your folder and changing index.html an
 
 To run tests, run the following commands:
 
-> npx hint .
-> npx stylelint "**/*.{css,scss}"
+To track linter errors locally follow these steps:  
+
+Download all the dependencies run:
+```
+npm install
+```
+Track HTML linter errors run:
+```
+npx hint .
+```
+Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+Track JavaScript linter errors run:
+```
+npx eslint ."
+```
 
 ### Deployment
 
@@ -140,7 +185,9 @@ Give me ⭐️ If you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse program for providing me this great chance.
+- I would like to thank Microverse program for providing me this great chance.
+- Again I would like to thank[Cindy Shin](https://www.behance.net/adagio07) the author of [the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), as required by the [Creative Commons License](https://creativecommons.org/licenses/) and for project requirements
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
